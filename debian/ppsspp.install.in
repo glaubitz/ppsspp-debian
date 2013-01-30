@@ -1,0 +1,2 @@
+obj-${DEB_HOST_MULTIARCH}/PPSSPPHeadless usr/bin
+obj-${DEB_HOST_MULTIARCH}/PPSSPPSDL usr/bin

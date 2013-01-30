@@ -1,0 +1,5 @@
+ppsspp (0.6.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #697821).
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Wed, 30 Jan 2013 17:03:25 +0100

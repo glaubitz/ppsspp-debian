@@ -1,0 +1,22 @@
+Source: ppsspp
+Section: contrib/otherosfs
+Priority: extra
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Build-Depends: debhelper (>= 9.0.0), cmake, libsdl1.2-dev
+Standards-Version: 3.9.4
+Homepage: http://ppsspp.org/
+Vcs-Git: git://github.com/glaubitz/ppsspp-debian.git
+Vcs-Browser: https://github.com/glaubitz/ppsspp-debian
+
+Package: ppsspp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A portable PSP emulator
+ ppsspp is a cross-platform emulator for Sony's PlayStation
+ Portable handheld console. The emulator features a built-in
+ just-in-time compiler (JIT) to quickly translate the CPU
+ instructions of the PSP into native code of the host system,
+ thus providing high performance on platforms where the JIT
+ is supported (currently x86 and x86_64, soon ARM). Supported
+ platforms include all major desktop operating systems as well
+ as various smart phone platforms like Android.
